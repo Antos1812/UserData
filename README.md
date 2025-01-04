@@ -4,8 +4,7 @@
 
 Prosty projekt.
 
-![image](https://github.com/user-attachments/assets/ac6e13e6-6976-4f36-b638-1bdb34d26e4e)
-
+![image](https://github.com/user-attachments/assets/576b010c-458c-49c3-a3cc-96a2ce741eba)
 
 ## Technologie
 
