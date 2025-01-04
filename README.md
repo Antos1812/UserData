@@ -4,6 +4,9 @@
 
 Prosty projekt.
 
+![image](https://github.com/user-attachments/assets/ac6e13e6-6976-4f36-b638-1bdb34d26e4e)
+
+
 ## Technologie
 
 - **NestJS** – Backend (API)
