@@ -21,3 +21,7 @@ Prosty projekt.
 - **PATCH /users/:id** – Aktualizacja danych użytkownika
 - **DELETE /users/:id** – Usunięcie użytkownika
 
+- ## Korzystanie
+- **komendy** - `npm start dev`
+- włączenie strony html
+
