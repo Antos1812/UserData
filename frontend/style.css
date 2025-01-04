@@ -84,4 +84,13 @@
   a:hover {
     text-decoration: underline;
   }
-  
+
+  #UnderTitle{
+    text-align: center;
+    color: #333;
+  }
+
+  #ListText{
+    text-align: center;
+    color: #333;
+  }
