@@ -31,8 +31,24 @@ function loadUsers(){
             const listItem = document.createElement("li");
             listItem.textContent = 
             `ID: ${user.id} - Name:  ${user.name} - Email:  ${user.email}`;
+            
+            const deleteButton = document.createElement("button");
+            deleteButton.textContent = "Delete";
+            deleteButton.addEventListener("click", () => deleteUser(user.id));
+            listItem.appendChild(deleteButton);
             userList.appendChild(listItem);
         });
+    })
+    .catch(error => console.error("Error:", error));
+}
+
+function deleteUser(userId) {
+    fetch(`http://localhost:3000/users/${userId}`, {
+        method: "DELETE",
+    })
+    .then(() => {
+        console.log(`User ${userId} deleted`);
+        loadUsers();
     })
     .catch(error => console.error("Error:", error));
 }
