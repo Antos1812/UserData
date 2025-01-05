@@ -23,6 +23,6 @@ Prosty projekt.
 - **DELETE /users/:id** – Usunięcie użytkownika
 
 - ## Korzystanie
-- **komendy** - `npm start dev`
+- **komendy** - `npm run start:dev`
 - włączenie strony html
 
